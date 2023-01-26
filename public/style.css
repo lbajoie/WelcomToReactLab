@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   height: 100vh;
   width: 100vw;
+  background-image: url("Lauren_5YrsOld.jpg");
 }
 
 #app {
@@ -32,21 +33,41 @@ body {
   flex-grow: 2;
 }
 
+#myInput {
+  background-color: #7856e8;
+  height: 20%;
+  font-size: 50px;
+}
+
 #counter h1 {
-  color: gray;
-  font-size: 72px;
+  color: rgb(241, 129, 237);
+  font-size: 75px;
+  border: solid 2px lightgreen;
+  background-color: #7856e8;
 }
 
 #counter button {
   padding: 2em 4em;
-  background-color: #59A9C2;
+  background-color: #7856e8;
   color: white;
   border: none;
   font-size: 1em;
   transition: all 1s ease;
-  outline: none;
+  outline: solid 5px yellow;
+  border-radius: 100%;
 }
 
 #counter button:hover {
   background-color: #65878F;
+}
+
+#title {
+  background-color: rgb(235, 32, 123);
+  color: chartreuse;
+  font-size: xxx-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 255%;
 }
